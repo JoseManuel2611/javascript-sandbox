@@ -66,7 +66,7 @@ const nuez = "🌰 Nuez"
 function pintaReceta(Titulo, Ingredientes, Preparación) {
     const estiloTitulo = "color: red; font-size: 18px";
     const estiloFuente = "font-style: italic";
-    
+
     //Titulo ensalada
     console.log(`%c${Titulo}`, estiloTitulo);
 
@@ -82,4 +82,6 @@ pintaReceta(
     `${alubias}, ${aguacate}, ${huevo}, ${cebolla}, ${tomate}, ${lechuga}.`,
     "cocer las alubias y dejar enfriar. Mezclar con aguacate en cubos, huevo cocido en rodajas, cebolla en juliana, tomate en cubos y lechuga troceada. Aliñar con aceite de oliva y vinagre."
 );
+
+//Sumar
 
