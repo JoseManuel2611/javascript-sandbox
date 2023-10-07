@@ -30,3 +30,4 @@ const botonSaludar = document.getElementById("saludar");
 botonSaludar.addEventListener("click", saludar);
 
 //Carrusel de fotos y fat arrow
+sessionStorage
