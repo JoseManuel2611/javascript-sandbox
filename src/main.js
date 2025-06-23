@@ -1,3 +1,5 @@
 import "./style.css";
 
-console.log("Hello from main");
+console.log(2 + 2);
+console.log("Hello, World!");
+console.log("This is a JavaScript sandbox environment.");
