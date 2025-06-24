@@ -47,9 +47,8 @@ console.log({
 console.log(undefined); // Valor undefined
 //Se utiliza null para indicar que una variable tiene un valor nulo o vacío.
 console.log(null); // Valor null
-console.log(noexisto); // Intento de acceder a una variable no definida, lo que generará un error
 
 //APARTADO 3 VARIABLES
-var descuento = 0.1; // Descuento del 10%
+var descuento = 0.9; // Descuento del 10%
 var iva = 0.21; // IVA del 21%
 console.log(100 * descuento * iva + 30 * descuento * iva); // Cálculo del descuento y el IVA
