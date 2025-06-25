@@ -136,29 +136,89 @@ console.log(person); // Imprime la información de la persona
 
 //BlackTicks Ejercicio recetas
 
-//Recetas
-// Ensalada de alubias con aguacate y huevo Ingredientes: alubias, aguacate, huevo, cebolla, tomate, lechuga. 
-// Preparación: cocer las alubias y dejar enfriar. 
-// Mezclar con aguacate en cubos, 
-// huevo cocido en rodajas, cebolla en juliana, tomate en cubos y lechuga troceada. Aliñar con aceite de oliva y vinagre.
-// Ensalada de setas y bacon
-// Ingredientes: setas, bacon, lechuga, tomate, cebolla, queso.
-// Preparación: saltear las setas y el bacon hasta que estén dorados. Mezclar con
-// lechuga troceada, tomate en cubos, cebolla en juliana y queso rallado. Aliñar con
-// aceite de oliva y vinagre.
-// Ensalada de arándanos y pollo
-// Ingredientes: arándanos, pollo cocido, lechuga, zanahoria, queso, nueces.
-// Preparación: mezclar los arándanos con el pollo cocido en cubos, lechuga troceada,zanahoria rallada, queso rallado y nueces picadas. 
-// Aliñar con una vinagreta demiel y mostaza.
-// Ensalada de maíz y piña
-// Ingredientes: maíz, piña en cubos, lechuga, pepino, cebolla, aguacate.
-// Preparación: mezclar el maíz con la piña en cubos, lechuga troceada, pepino en
-// rodajas, cebolla en juliana y aguacate en cubos. Aliñar con una vinagreta de
-// aceite de oliva y vinagre.
-// Ensalada de mango y queso feta
-// Ingredientes: mango en cubos, queso feta, lechuga, cebolla, pepino, aceitunas.
-// Preparación: mezclar el mango en cubos con el queso feta desmenuzado, lechuga
-// troceada, cebolla en juliana, pepino en rodajas y aceitunas. Aliñar con una
-// vinagreta de limón y aceite de oliva.
+const estiloTitulo = "color:red; font-size:18px;";
+const FuentePreparacipon = "font-family:italic;";
 
-console.log(`%cEnsalada de alubias con aguacate y huevo`, "color: blue; font-size: 18px" );
+const alubias = "🫘 alubias";
+const aguacate = "🥑 aguacate";
+const huevo = "🥚 huevo";
+const cebolla = "🧅 cebolla";
+const tomate = "🍅 tomate";
+const lechuga = "🥬 lechuga";
+const setas = "🍄 setas";
+const queso = "🧀 queso";
+const bacon = "🥓 bacon";
+const arándanos = "🫐 arándanos";
+const pollo = "🍗 pollo";
+const zanahoria = "🥕 zanahoria";
+const nueces = "🌰 nueces";
+const maíz = "🌽 maíz";
+const piña = "🍍 piña";
+const pepino = "🥒 pepino";
+const mango = "🥭 mango";
+const quesoFeta = "🧀 queso feta";
+const aceitunas = "🫒 aceitunas";
+
+
+
+
+// Ensalada de alubias con aguacate y huevo
+console.log("%cEnsalada de alubias con aguacate y huevo", estiloTitulo,);
+// Ingredientes
+console.log(
+  `- Ingredientes: ${alubias}, ${aguacate}, ${huevo}, ${cebolla}, ${tomate}, ${lechuga}`
+);
+// Preparación
+console.log(
+  `%c- Preparación: cocer las alubias y dejar enfriar. Mezclar con aguacate en cubos, huevo cocido en rodajas, cebolla en juliana, tomate en cubos y lechuga troceada. Aliñar con aceite de oliva y vinagre.`
+  , FuentePreparacipon
+);
+
+// Ensalada de setas y bacon
+console.log("%cEnsalada de setas y bacon", estiloTitulo, );
+// Ingredientes
+console.log(`- Ingredientes: ${setas}, ${bacon}, ${lechuga}, ${tomate}, ${cebolla}, ${queso}.`);
+// Preparación
+console.log(
+  "%c- Preparación: saltear las setas y el bacon hasta que estén dorados. Mezclar con lechuga troceada, tomate en cubos, cebolla en juliana y queso rallado. Aliñar con aceite de oliva y vinagre."
+    , FuentePreparacipon
+);
+
+// Ensalada de arándanos y pollo
+console.log("%cEnsalada de arándanos y pollo", estiloTitulo);
+// Ingredientes
+console.log(
+ `- Ingredientes: ${arandanos}, ${pollo}, ${lechuga}, ${zanahoria}, ${queso}, ${nueces}.`
+);
+// Preparación
+console.log(
+  "%c- Preparación: mezclar los arándanos con el pollo cocido en cubos, lechuga troceada, zanahoria rallada, queso rallado y nueces picadas. Aliñar con una vinagreta de miel y mostaza."
+    , FuentePreparacipon
+);
+
+// Ensalada de maíz y piña
+console.log("%cEnsalada de maíz y piña", estiloTitulo);
+// Ingredientes
+console.log(
+ `- Ingredientes: ${maiz}, ${piña}, ${lechuga}, ${pepino}, ${cebolla}, ${aguacate}.`
+);
+// Preparación
+console.log(
+  `%c- Preparación: mezclar el maíz con la piña en cubos, lechuga troceada, pepino
+en rodajas, cebolla en juliana y aguacate en cubos. Aliñar con una vinagreta de
+aceite de oliva y vinagre.`, FuentePreparacipon
+);
+
+// Ensalada de mango y queso feta
+console.log("%cEnsalada de mango y queso feta", estiloTitulo);
+// Ingredientes
+console.log(
+ `- Ingredientes: ${mango}, ${quesoFeta}, ${lechuga}, ${cebolla}, ${pepino}, ${aceitunas}.`
+);
+// Preparación
+console.log(
+  "%c- Preparación: mezclar el mango en cubos con el queso feta desmenuzado, lechuga troceada, cebolla en juliana, pepino en rodajas y aceitunas. Aliñar con una vinagreta de limón y aceite de oliva."
+    , FuentePreparacipon
+);
+
+
