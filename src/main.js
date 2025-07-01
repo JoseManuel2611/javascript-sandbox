@@ -222,3 +222,12 @@ console.log(
 );
 
 
+//Bloque 4, funciones
+//Las funciones son bloques de código que se pueden reutilizar en diferentes partes del programa.
+//Se pueden definir funciones utilizando la palabra clave function, seguida del nombre de la función y los parámetros entre paréntesis.
+function doble(x) {
+  return x * 2; // Devuelve el doble del número pasado como parámetro
+};
+console.log(doble(4)); // Llama a la función doble con el número 4 y muestra el resultado en la consola
+console.log(doble(6)); // Llama a la función doble con el número 6 y muestra el resultado en la consola
+
