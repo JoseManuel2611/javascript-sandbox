@@ -225,9 +225,29 @@ console.log(
 //Bloque 4, funciones
 //Las funciones son bloques de código que se pueden reutilizar en diferentes partes del programa.
 //Se pueden definir funciones utilizando la palabra clave function, seguida del nombre de la función y los parámetros entre paréntesis.
+
+
 function doble(x) {
   return x * 2; // Devuelve el doble del número pasado como parámetro
 };
 console.log(doble(4)); // Llama a la función doble con el número 4 y muestra el resultado en la consola
 console.log(doble(6)); // Llama a la función doble con el número 6 y muestra el resultado en la consola
 
+
+//Calcular el área de un círculo
+// Area = π * radio^2
+function AreaCircle (radio) {
+  return 2 * Math.PI * radio * radio; // Devuelve el área del círculo utilizando la fórmula del área
+};
+
+console.log(AreaCircle(5)); // Llama a la función AreaCircle con el radio 5 y muestra el resultado en la consola
+
+//Area de un cuadrado
+function AreaCuadrado (lado) {
+  return lado * lado; // Devuelve el área del cuadrado utilizando la fórmula del área
+};
+
+console.log(AreaCuadrado(4)); // Llama a la función AreaCuadrado con el lado 4 y muestra el resultado en la consola
+
+const resultado = AreaCuadrado(6); // Llama a la función AreaCuadrado con el lado 6 y almacena el resultado en la variable resultado
+console.log(resultado); // Muestra el resultado del área del cuadrado con lado 6 en la consola
